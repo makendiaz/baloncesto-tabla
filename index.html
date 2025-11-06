@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div id="home-container">
+                <h3 class="head">HOME</h3>
+                <div class="display" id="display-home"> 0 </div>
+                <div class="container-btn">
+                    <button class="btn-puntos btn-1" onclick="btn1(0)" >+1</button><button class="btn-puntos btn-2" onclick="btn2(0)">+2</button><button class="btn-puntos btn-3" onclick="btn3(0)">+3</button>
+                </div>
+            </div>
+            <div id="guest-container">
+                <h3 class="head">GUEST</h3>
+                <div class="display" id="display-guest">0</div>
+                <div class="container-btn">
+                    <button class="btn-puntos btn-1" onclick="btn1(1)" >+1</button><button class="btn-puntos btn-2" onclick="btn2(1)">+2</button><button class="btn-puntos btn-3" onclick="btn3(1)">+3</button>
+                </div>
+            </div>
+        </div>
+        <div class="container" id="cont-down">
+            <div id="time-text"> TIME </div>
+            <div id="time-container"> </div>
+            <button class="btn-puntos" id="btn-reset" onclick="reset()"> RESET </button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
